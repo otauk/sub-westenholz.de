@@ -178,13 +178,11 @@ background-size: cover;
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #fff;
 	background-color: #7194B3;
-	/*border-bottom:5px solid #7194B3;*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #fff;
-	/*border-bottom:5px solid rgb(101,169,223);*/
-	background-color:#4E667D;
+	background-color:#7194B3;
 
 }
 
@@ -438,10 +436,6 @@ a {
 	content: "\f062";
     font-family: FontAwesome;
 	}
-
-li.active {
-    color: red;
-}
 
 
  /*

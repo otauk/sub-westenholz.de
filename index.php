@@ -24,14 +24,14 @@ NAVIGATION
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="index.php">
-				      <img src="img/wappen.png" class="hpx50 padding-tb-0" />
+			      <a class="navbar-brand padding-0" href="index.php" >
+				      <img src="img/logo_sub.png" class="hpx50" />
 			      </a>
 			    </div>
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right padding-lr-30">
-			        <li class="active padding-lr-15 "><a href="#">Fakten</a></li>
+			        <li class=""><a href="#">Fakten</a></li>
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
