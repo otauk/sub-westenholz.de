@@ -1,54 +1,4 @@
 <?php include ("header.php");?>
-  <body>
-	  	<a id="top-link"></a>
-	<a href="#top-link" class="top_btn"></a>
-<!--
-++++++++++++++++++++
-BEGIN PAGE
-++++++++++++++++++++
--->
-  	<div class="container-fluid">
-<!--
-++++++++++++++++++++
-NAVIGATION
-++++++++++++++++++++
--->
-		<div class="row">
-			<nav class="navbar navbar-default border-flat margin-0 text-uppercase ls-1 fs-115" role="navigation">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand padding-0" href="index.php" >
-				      <img src="img/logo_sub.png" class="hpx50" />
-			      </a>
-			    </div>
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right padding-lr-30">
-			        <li class=""><a href="#">Fakten</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
-			          </ul>
-			        </li>
-			        <li class="padding-lr-15"><a href="galerie.php">Galerie</a></li>
-			        <li class="padding-lr-15"><a href="#">Kontakt</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-		</div>
 <!--
 ++++++++++++++++++++
 HEADER
@@ -96,7 +46,7 @@ FAKTEN
 								<div class="dashed-line-bottom-dark color-bright headline headline-h2 padding-lr-0">Chronik</div>
 								<div class="padding-15 fs-115 text-center">Eine &uuml;bersicht von der Planung bis hin zur Eröffnung</div>
 								<div class="text-center padding-30">
-									<a class="readon">weiterlesen</a>
+									<a class="readon" href="chronik.php">weiterlesen</a>
 								</div>
 							</div>
 						</div>
@@ -232,49 +182,16 @@ KONTAKT
 					</div>
 			</div>
 		</div>
-<?php include ("footer.php");?>
+
+<?php
+include ("footer.php");
+include("inc/calender_script.php");
+?>
 <!--
 ++++++++++++++++++++
 END PAGE
 ++++++++++++++++++++
 -->
 	</div> <!-- !end container_fluid -->
-<?php include("scripts.php");?>
-
-
-<script type='text/javascript'>
-/*
-*	++++++++++++++++++++
-*	calender Sporthalle
-*	++++++++++++++++++++
-*/
-$(document).ready(function() {
-
-	$('.navbar-nav').on('click', 'li', function(){
-    $('.nav li').removeClass('active');
-    $(this).addClass('active');
-});
-
-    $('#calendar_sporthalle').fullCalendar({
-	    defaultView: 'agendaWeek',
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
-        events: {
-            googleCalendarId: 'vp8tq6uv960suir03acdrq6vf8@group.calendar.google.com',
-        }
-    });
-    $('#calendar_forum').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
-        events: {
-            googleCalendarId: 'j6g3kemkccq9kh78icrcfrpf5k@group.calendar.google.com'
-        }
-    });
-});
-/*
-*	++++++++++++++++++++
-*	calender Forum
-*	++++++++++++++++++++
-*/
-
-</script>
   </body>
 </html>

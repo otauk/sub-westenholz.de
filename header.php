@@ -21,4 +21,70 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<?php
+    	if ($thisPage=="fakten") {$current = 'fatken';}
+    	elseif ($thisPage=="chronik") {$current = 'fakten';}
+    	elseif ($thisPage=="belegung") {$current = 'belegung';}
+    	elseif ($thisPage=="sporthalle") {$current = 'belegung';}
+    	elseif ($thisPage=="musikraum") {$current = 'belegung';}
+    	elseif ($thisPage=="gymnastikraum") {$current = 'belegung';}
+    	elseif ($thisPage=="galerie") {$current = 'galerie';}
+    	elseif ($thisPage=="kontakt") {$current = 'kontakt';}
+    	/* ...sonst... */
+	    else {$current = 'none';}
+	?>
+	<style type="text/css">.<?php echo $current; ?>
+		{background-color:#7194B3;color:#fff; display: block;}
+	</style>
   </head>
+
+    <body>
+	 <a id="top-link"></a>
+	 <a href="#top-link" class="top_btn"></a>
+<!--
+++++++++++++++++++++
+BEGIN PAGE
+++++++++++++++++++++
+-->
+  	<div class="container-fluid">
+<!--
+++++++++++++++++++++
+NAVIGATION
+++++++++++++++++++++
+-->
+		<div class="row">
+			<nav class="navbar navbar-default border-flat margin-0 text-uppercase ls-1 fs-115" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand padding-0" href="index.php" >
+				      <img src="img/logo_sub.png" class="hpx50" />
+			      </a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right padding-lr-30">
+			        <li class="fakten"><a href="#">Fakten</a></li>
+			        <li class="dropdown belegung">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
+			          <ul class="dropdown-menu" role="menu">
+			            <li><a href="#">Action</a></li>
+			            <li><a href="#">Another action</a></li>
+			            <li><a href="#">Something else here</a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Separated link</a></li>
+			          </ul>
+			        </li>
+			        <li class="galerie"><a href="galerie.php">Galerie</a></li>
+			        <li class="kontakt"><a href="kontakt.php">Kontakt</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		</div>

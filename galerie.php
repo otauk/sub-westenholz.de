@@ -1,52 +1,7 @@
-<?php include ("header.php");?>
-  <body>
-	<a id="top-link"></a>
-	<a href="#top-link" class="top_btn"></a>
-<!--
-++++++++++++++++++++
-BEGIN PAGE
-++++++++++++++++++++
--->
-  	<div class="container-fluid">
-<!--
-++++++++++++++++++++
-NAVIGATION
-++++++++++++++++++++
--->
-		<div class="row">
-			<nav class="navbar navbar-default border-flat margin-0 text-uppercase ls-1 fs-125" role="navigation">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			       <a class="navbar-brand padding-0" href="index.php" >
-				      <img src="img/logo_sub.png" class="hpx50" />
-			      </a>
-			    </div>
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right padding-lr-30">
-			        <li class=""><a href="#">Fakten</a></li>
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Sporthalle</a></li>
-			            <li><a href="#">Forum</a></li>
-			            <!--<li class="divider"></li>-->
-			          </ul>
-			        </li>
-			        <li class="active"><a href="#">Galerie</a></li>
-			        <li class=""><a href="#">Kontakt</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-		</div>
+<?php
+$thisPage = "galerie";
+include ("header.php");
+?>
 <!--
 ++++++++++++++++++++
 HEADER
@@ -130,6 +85,5 @@ END PAGE
 ++++++++++++++++++++
 -->
 	</div> <!-- !end container_fluid -->
-    <?php include("scripts.php");?>
   </body>
 </html>

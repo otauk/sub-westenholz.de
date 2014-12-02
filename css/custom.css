@@ -94,6 +94,8 @@ background-size: cover;
 */
 
 .margin-0 {margin: 0;}
+.margin-15 {margin: 15px;}
+.margin-tb-15 {margin-top: 15px;margin-bottom: 15px;}
 
 /*
 *	+++++++++++++++++++++++
@@ -229,6 +231,26 @@ background-size: cover;
 		border-bottom:5px solid #7194B3;
 	}
 }
+
+
+.subnavi ul {
+	list-style: none;
+}
+
+.subnavi li {
+	display: inline;
+}
+
+.subnavi a {
+	color:rgb(28,117,128);
+	font-size: 125%;
+	padding: 0 0.5em;
+}
+
+.subnavi a:hover {
+	border-bottom: rgb(28,117,128);
+}
+
 
  /*
 *	+++++++++++++++++++++++

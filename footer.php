@@ -6,17 +6,15 @@ FOOTER
 		<div class="row">
 			<div class="col-lg-12 color-dark-background text-center color-base-text">
 				<div class="row">
-					<div class="col-lg-3"></div>
-					<div class="col-lg-2 padding-tb-0">
+					<span class="padding-lr-15">
 						Sport und Begegnungszentrum
-					</div>
-					<div class="col-lg-2 padding-tb-0">
+					</span>
+					<span class="padding-lr-15">
 						Anton-Pieper-Str. 14
-					</div>
-					<div class="col-lg-2 padding-tb-0">
+					</span>
+					<span class="padding-lr-15">
 						D - 33129 Westenholz
-					</div>
-					<div class="col-lg-3"></div>
+					</span>
 				</div>
 			</div>
 			<div class="col-lg-12 color-light-background text-center color-base-text padding-tb-30">
@@ -31,3 +29,4 @@ FOOTER
 					</div>
 				</div>
 		</div>
+<?php include("inc/scripts.php");?>
