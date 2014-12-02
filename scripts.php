@@ -9,3 +9,4 @@
     <script src="js/gcal.js" type="text/javascript"></script>
     <script src="js/de.js" type="text/javascript"></script>
     <script src="js/scrollTop.js" type="text/javascript"></script>
+    <script src="js/lightbox.js" type="text/javascript"></script>

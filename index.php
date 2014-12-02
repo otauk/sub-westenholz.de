@@ -24,7 +24,9 @@ NAVIGATION
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Wappen</a>
+			      <a class="navbar-brand" href="index.php">
+				      <img src="img/wappen.png" class="hpx50 padding-tb-0" />
+			      </a>
 			    </div>
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -40,7 +42,7 @@ NAVIGATION
 			            <li><a href="#">Separated link</a></li>
 			          </ul>
 			        </li>
-			        <li class="padding-lr-15"><a href="galerie.html">Galerie</a></li>
+			        <li class="padding-lr-15"><a href="galerie.php">Galerie</a></li>
 			        <li class="padding-lr-15"><a href="#">Kontakt</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
@@ -54,7 +56,7 @@ HEADER
 -->
 		<div class="row">
 			<div class="col-xs-12 padding-0">
-				<img src="img/SuB_01.jpg"  class="img-responsive  header-size" alt="Luftbildaufnahme Westenholz mit SuB"/>
+				<img src="img/SuB_01.jpg"  class="img-responsive header-size" alt="Luftbildaufnahme Westenholz mit SuB"/>
 			</div>
 		</div>
 <!--
@@ -64,11 +66,9 @@ TAGLINE
 -->
 		<div class="row">
 			<div class="col-lg-12 color-pastel-dark-background z-50">
-				<div class="container">
-					<div class="row">
+				<div class="pos-center ta-center padding-tb-15">
 						>> Das im Jahre 2000 eröffnete Sport- und Begegnungszentrum Westenholz besteht aus
 	einer Dreifachturnhalle und einer Begegnungsstätte.
-					</div>
 				</div>
 			</div>
 		</div>
@@ -141,13 +141,15 @@ TERMINE
 				</div>
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-4">
 							 <div class="headline headline-h2 text-center color-bright">Sporthalle</div>
-							 <div class="padding-15  color-pastel-light-background h25 w-50">
+							 <div class="padding-15  color-pastel-light-background h25">
 								<div id='calendar_sporthalle'></div>
 							 </div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-4">
 							<div class="headline headline-h2 text-center color-bright">Forum</div>
 							<div class="padding-15  color-pastel-light-background h25">
 								<div id='calendar_forum'></div>
@@ -254,8 +256,17 @@ $(document).ready(function() {
 });
 
     $('#calendar_sporthalle').fullCalendar({
-        events: 'https://www.google.com/calendar/feeds/vp8tq6uv960suir03acdrq6vf8%40group.calendar.google.com/public/basic',
-		aspectRatio:1.25
+	    defaultView: 'agendaWeek',
+        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
+        events: {
+            googleCalendarId: 'vp8tq6uv960suir03acdrq6vf8@group.calendar.google.com',
+        }
+    });
+    $('#calendar_forum').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
+        events: {
+            googleCalendarId: 'j6g3kemkccq9kh78icrcfrpf5k@group.calendar.google.com'
+        }
     });
 });
 /*
@@ -263,12 +274,7 @@ $(document).ready(function() {
 *	calender Forum
 *	++++++++++++++++++++
 */
-$(document).ready(function() {
-    $('#calendar_forum').fullCalendar({
-        events: 'https://www.google.com/calendar/feeds/j6g3kemkccq9kh78icrcfrpf5k%40group.calendar.google.com/public/basic',
-        aspectRatio:1.25
-    });
-});
+
 </script>
   </body>
 </html>

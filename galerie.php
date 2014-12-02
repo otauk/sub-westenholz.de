@@ -24,7 +24,7 @@ NAVIGATION
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">Wappen</a>
+			      <a class="navbar-brand" href="index.php">Wappen</a>
 			    </div>
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -33,11 +33,9 @@ NAVIGATION
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
+			            <li><a href="#">Sporthalle</a></li>
+			            <li><a href="#">Forum</a></li>
+			            <!--<li class="divider"></li>-->
 			          </ul>
 			        </li>
 			        <li class="padding-lr-15"><a href="#">Galerie</a></li>
@@ -87,44 +85,38 @@ FAKTEN
 						</div>
 					</div>
 				</div>
-				<div class="container-fluid">
+				<div class="container">
 					<div class="row">
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_1.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_2.jpg" alt="SuB Teilansicht"  class="img-responsive"/>
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_3.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_1.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_2.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_3.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
-						<div class="col-lg-2 col-sm-3 col-xs-3">
-							<img src="img/t_4.jpg" alt="SuB Teilansicht" class="img-responsive" />
-						</div>
+							<a href="img/b1.jpg" data-lightbox="gallery" data-title="Image 1">
+								<img src="img/b1.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b2.jpg" data-lightbox="gallery" data-title="Image 2">
+								<img src="img/b2.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b3.jpg" data-lightbox="gallery" data-title="Image 3">
+								<img src="img/b3.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b3.jpg" data-lightbox="gallery" data-title="Image 4">
+								<img src="img/b4.jpg" class="thumbnail img-responsive" />
+							</a>
+							<a href="img/b1.jpg" data-lightbox="gallery" data-title="Image 1">
+								<img src="img/b1.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b2.jpg" data-lightbox="gallery" data-title="Image 2">
+								<img src="img/b2.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b3.jpg" data-lightbox="gallery" data-title="Image 3">
+								<img src="img/b3.jpg" class="thumbnail img-responsive" />
+							</a>
+
+							<a href="img/b3.jpg" data-lightbox="gallery" data-title="Image 4">
+								<img src="img/b4.jpg" class="thumbnail img-responsive" />
+							</a>
 					</div>
 				</div>
 			</div>
