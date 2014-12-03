@@ -46,7 +46,7 @@ FAKTEN
 								<div class="dashed-line-bottom-dark color-bright headline headline-h2 padding-lr-0">Chronik</div>
 								<div class="padding-15 fs-115 text-center">Eine &uuml;bersicht von der Planung bis hin zur Eröffnung</div>
 								<div class="text-center padding-30">
-									<a class="readon" href="chronik.php">weiterlesen</a>
+									<a class="readon" href="fakten.php">weiterlesen</a>
 								</div>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ FAKTEN
 								<div class="dashed-line-bottom-dark color-bright headline headline-h2 padding-lr-0">Daten</div>
 								<div class="padding-15 fs-115 text-center">Einige Daten rund um das Sport- und Begegnungszentrum</div>
 								<div class="text-center padding-30">
-									<a class="readon">weiterlesen</a>
+									<a class="readon" href="fakten.php#daten">weiterlesen</a>
 								</div>
 							</div>
 						</div>
@@ -64,7 +64,7 @@ FAKTEN
 								<div class="dashed-line-bottom-dark color-bright headline headline-h2 padding-lr-0">Pressearchiv</div>
 								<div class="padding-15 fs-115 text-center">Eine Sammlung einiger Presseberichte rund um das SuB</div>
 								<div class="text-center padding-30">
-									<a class="readon">weiterlesen</a>
+									<a class="readon" href="fakten.php#presse">weiterlesen</a>
 								</div>
 							</div>
 						</div>

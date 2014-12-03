@@ -22,8 +22,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<?php
-    	if ($thisPage=="fakten") {$current = 'fatken';}
-    	elseif ($thisPage=="chronik") {$current = 'fakten';}
+    	if ($thisPage=="fakten") {$current = 'fakten';}
     	elseif ($thisPage=="belegung") {$current = 'belegung';}
     	elseif ($thisPage=="sporthalle") {$current = 'belegung';}
     	elseif ($thisPage=="musikraum") {$current = 'belegung';}
@@ -70,15 +69,13 @@ NAVIGATION
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right padding-lr-30">
-			        <li class="fakten"><a href="#">Fakten</a></li>
+			        <li class="fakten"><a href="fakten.php">Fakten</a></li>
 			        <li class="dropdown belegung">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Belegung <span class="caret"></span></a>
 			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="#">Action</a></li>
-			            <li><a href="#">Another action</a></li>
-			            <li><a href="#">Something else here</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Separated link</a></li>
+			            <li><a href="#">Sporthalle</a></li>
+			            <li><a href="#">Gymnastikraum</a></li>
+			            <li><a href="#">Musikraum</a></li>
 			          </ul>
 			        </li>
 			        <li class="galerie"><a href="galerie.php">Galerie</a></li>

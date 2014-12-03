@@ -260,7 +260,7 @@ background-size: cover;
 
 a {
 	cursor:pointer;
-	color:#fff;
+	color:#7194B3;
 }
 
 .readon {
@@ -465,7 +465,6 @@ a {
 *	----- GALERIE  -----
 *	+++++++++++++++++++++++
 */
-
 .thumbnail {
 	margin: 0 auto;
 	max-width: 20%;
@@ -473,3 +472,17 @@ a {
 	padding: 15px;
 	border: none;
 }
+
+ /*
+*	+++++++++++++++++++++++
+*	----- TABLE  -----
+*	+++++++++++++++++++++++
+*/
+.tbl {
+	width:100%;
+}
+
+td {
+	padding: 5px;
+	vertical-align: top;
+	}
