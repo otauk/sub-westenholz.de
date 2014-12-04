@@ -253,6 +253,33 @@ background-size: cover;
 }
 
 
+.nav-tabs  {
+	border-bottom: none;
+}
+
+.nav-tabs>li {
+	margin-bottom: -2px;
+}
+
+.nav-tabs>li>a {
+	border-radius: 0;
+}
+
+.nav-tabs>li>a {
+	border: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	cursor: default;
+	background-color:#e6f5fd;
+	border:none;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: #e6f5fd;
+}
+
+
  /*
 *	+++++++++++++++++++++++
 *	----- LINKS -----

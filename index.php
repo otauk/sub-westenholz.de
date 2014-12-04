@@ -85,7 +85,7 @@ TERMINE
 							<div class="headline-dashed z-0"></div>
 						</div>
 						<div class="col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3 z-50">
-							<div class="headline headline-h1 color-pastel-dark-background">termine</div>
+							<div class="headline headline-h1 color-pastel-dark-background">Belegung & Termine</div>
 						</div>
 					</div>
 				</div>
@@ -93,14 +93,26 @@ TERMINE
 					<div class="row">
 						<div class="col-lg-1"></div>
 						<div class="col-lg-4">
-							 <div class="headline headline-h2 text-center color-bright">Sporthalle</div>
+						 	<ul class="nav nav-tabs">
+						 		<li role="presentation" class="active">
+						 			<a class="btn_sporthalle">Sporthalle</a>
+						 		</li>
+						 		<li role="presentation">
+						 			<a class="btn_gymnastik">Gymnastik</a>
+						 		</li>
+						 		<li role="presentation">
+						 			<a class="btn_musikraum">Musikraum</a>
+						 		</li>
+						 	</ul>
 							 <div class="padding-15  color-pastel-light-background h25">
-								<div id='calendar_sporthalle'></div>
+								<div id='calendar_sporthalle' class="cal_sporthalle"></div>
+								<div class="cal_gymnastik">KALENDER Gymnastik</div>
+								<div class="cal_musikraum">KALENDER Musikraum</div>
 							 </div>
 						</div>
 						<div class="col-lg-2"></div>
 						<div class="col-lg-4">
-							<div class="headline headline-h2 text-center color-bright">Forum</div>
+							<div class="headline headline-h2 text-center color-bright">Termine</div>
 							<div class="padding-15  color-pastel-light-background h25">
 								<div id='calendar_forum'></div>
 							</div>
@@ -187,6 +199,31 @@ KONTAKT
 include ("footer.php");
 include("inc/calender_script.php");
 ?>
+<script>
+
+$(document).ready(function(){
+$(".cal_gymnastik").hide();
+$(".cal_musikraum").hide();
+	// Kalender Gymnastik
+	$(".btn_gymnastik").click(function(){
+    	$(".cal_gymnastik").show();
+		$(".cal_sporthalle").hide();
+		$(".cal_musikraum").hide();
+	});
+	$(".btn_musikraum").click(function(){
+    	$(".cal_musikraum").show();
+    	$(".cal_gymnastik").hide();
+		$(".cal_sporthalle").hide();
+	});
+	$(".btn_sporthalle").click(function(){
+    	$(".cal_sporthalle").show();
+		$(".cal_gymnastik").hide();
+		$(".cal_musikraum").hide();
+	});
+
+});
+</script>
+
 <!--
 ++++++++++++++++++++
 END PAGE
