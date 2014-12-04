@@ -95,6 +95,7 @@ background-size: cover;
 
 .margin-0 {margin: 0;}
 .margin-15 {margin: 15px;}
+.margin-tb-0 {margin-top: 0px;margin-bottom: 0px;}
 .margin-tb-15 {margin-top: 15px;margin-bottom: 15px;}
 
 /*
@@ -486,3 +487,22 @@ td {
 	padding: 5px;
 	vertical-align: top;
 	}
+
+ /*
+*	+++++++++++++++++++++++
+*	----- LISTS  -----
+*	+++++++++++++++++++++++
+*/
+
+.list {
+	padding:15px 0;
+}
+
+.list li {
+	list-style: none;
+}
+
+.list li:before {
+	content:"--";
+	padding-right:5px;
+}

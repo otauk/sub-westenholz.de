@@ -185,13 +185,13 @@ DATEN
 								 Planung/Spendensammlung
 							</div>
 								<div class="padding-15  color-pastel-light-background h25">
-									<ul>
+									<ul class="list">
 										<li>Vereineversammlung ermittelt 1992 Raumbedarf</li>
 										<li>Gründung des Fördervereins SuB 1993</li>
 										<li>Zeitraum Spendensammlung 06/1993 – 12/1999</li>
 										<li>Spenden aus der Wirtschaft: ca. 70 Einzelspender</li>
 										<li>Vereinsaktivitäten:
-											<ul>
+											<ul class="sublist">
 												<li>Golddorfjubiläum</li>
 												<li>Weihnachtsmärkte</li>
 												<li>Schautage, Erntedankzüge (je ca. 700 Beteiligte)</li>
@@ -209,7 +209,7 @@ DATEN
 								 Bau
 							</div>
 								 <div class="padding-15  color-pastel-light-background h25">
-									<ul>
+									<ul class="list">
 										<li>Zeitraum 03/1998 – 05/2000</li>
 										<li>291 Helfer</li>
 										<li>10.200 Stunden</li>
@@ -224,7 +224,7 @@ DATEN
 								 Nutzung
 							</div>
 								 <div class="padding-15  color-pastel-light-background h25">
-									<ul>
+									<ul class="list">
 										<li>820 Personen nutzen wöchentlich das SuB
   (u.a. Jugend, Musik, Schützen, Sport, VHS, Volkstanz)</li>
 										<li>die Übungseinheiten und Gruppenstunden werden von
@@ -293,7 +293,7 @@ DATEN
 							</div>
 								 <div class="padding-15  color-pastel-light-background h25">
 									Hier können Sie die Haus- und die Nutzungsordnung als PDF herunterladen:
-									<ul>
+									<ul class="list">
 										<li>
 											<a href="download/hausordnung_sub.pdf" target="_blank">
 												Hausordnung
@@ -313,7 +313,7 @@ DATEN
 							</div>
 								 <div class="padding-15  color-pastel-light-background h25">
 									Hier können Sie die Haus- und die Nutzungsordnung als PDF herunterladen:
-									<ul>
+									<ul class="list">
 										<li>öffentliche Förderung (Land NRW, Kreis PB)</li>
 										<li>Zuschuss Stadt Delbrück zu den Vereinsräumen</li>
 										<li>

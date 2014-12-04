@@ -5,7 +5,7 @@ FOOTER
 -->
 		<div class="row">
 			<div class="col-lg-12 color-dark-background text-center color-base-text">
-				<div class="row">
+				<div class="row margin-tb-0">
 					<span class="padding-lr-15">
 						Sport und Begegnungszentrum
 					</span>
@@ -19,13 +19,13 @@ FOOTER
 			</div>
 			<div class="col-lg-12 color-light-background text-center color-base-text padding-tb-30">
 					<div class="dashed-line-bottom-light w25 pos-center">
-						<a class="footer-link">Links</a>
+						<a class="footer-link" href="links.php">Links</a>
 					</div>
 					<div class="dashed-line-bottom-light w25 pos-center">
-						<a class="footer-link">Anfahrt</a>
+						<a class="footer-link" href="anfahrt.php">Anfahrt</a>
 					</div>
 					<div class="dashed-line-bottom-light w25 pos-center">
-						<a class="footer-link">Impressum</a>
+						<a class="footer-link" href="impressum.php">Impressum</a>
 					</div>
 				</div>
 		</div>
