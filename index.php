@@ -202,6 +202,7 @@ include("inc/calender_script.php");
 <script>
 
 $(document).ready(function(){
+$(".btn_sporthalle").addClass("active");
 $(".cal_gymnastik").hide();
 $(".cal_musikraum").hide();
 	// Kalender Gymnastik

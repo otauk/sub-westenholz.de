@@ -495,7 +495,7 @@ a {
 */
 .thumbnail {
 	margin: 0 auto;
-	max-width: 20%;
+	max-height:25%;
 	float:left;
 	padding: 15px;
 	border: none;

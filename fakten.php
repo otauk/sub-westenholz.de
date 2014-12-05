@@ -351,7 +351,7 @@ PRESSEARCHIV
 							<div class="headline">
 								Juni 1993
 							</div>
-							<a href="zeitungsartikel/a1.gif" target="_blank">
+							<a href="download/zeitungsartikel/a1.gif" target="_blank">
 								F&ouml;rderverein plant Bau eines Sport und Begegnungszentrums (WV)
 							</a>
 						</div>
@@ -359,7 +359,7 @@ PRESSEARCHIV
 							<div class="headline">
 								1. Juni 1996
 							</div>
-							<a href="zeitungsartikel/a2.gif" target="_blank">
+							<a href="download/zeitungsartikel/a2.gif" target="_blank">
 								Jahrhundertbauwerk kostet etwa zehn Millionen Mark (WV)
 							</a>
 						</div>
@@ -367,7 +367,7 @@ PRESSEARCHIV
 							<div class="headline">
 								7. Juni 1996
 							</div>
-							<a href="zeitungsartikel/a3.gif" target="_blank">
+							<a href="download/zeitungsartikel/a3.gif" target="_blank">
 								Sport- und Begegnungszentrum: Teures Projekt (DSA)
 							</a>
 						</div>
@@ -375,7 +375,7 @@ PRESSEARCHIV
 							<div class="headline">
 								17. Mai 1997
 							</div>
-							<a href="zeitungsartikel/a4.gif" target="_blank">
+							<a href="download/zeitungsartikel/a4.gif" target="_blank">
 								Westenholzer lassen sich ihre Dreifachhalle nicht ausreden (WV)
 							</a>
 						</div>
@@ -383,7 +383,7 @@ PRESSEARCHIV
 							<div class="headline">
 								Dezember 1997
 							</div>
-							<a href="zeitungsartikel/a5.gif" target="_blank">
+							<a href="download/zeitungsartikel/a5.gif" target="_blank">
 								Nun doch ein dicker Landeszuschu&szlig; (NW)
 							</a>
 						</div>
@@ -391,11 +391,11 @@ PRESSEARCHIV
 							<div class="headline">
 								16. M&auml;rz 98
 							</div>
-							<a href="zeitungsartikel/a6.gif" target="_blank">
+							<a href="download/zeitungsartikel/a6.gif" target="_blank">
 								Erster Spatenstich f&uuml;r Begegnungszentrum (NW)
 							</a>
 							<br/>
-							<a href="zeitungsartikel/a7.gif" target="_blank">
+							<a href="download/zeitungsartikel/a7.gif" target="_blank">
 								Mit Elan an Jahrhundertbauwerk (WV)
 							</a>
 						</div>
@@ -403,7 +403,7 @@ PRESSEARCHIV
 							<div class="headline">
 								26. M&auml;rz 1998
 							</div>
-							<a href="zeitungsartikel/a8.gif" target="_blank">
+							<a href="download/zeitungsartikel/a8.gif" target="_blank">
 								Der erste Spatenstich mit allen Vereinsvorst&auml;nden (DSA)
 							</a>
 						</div>
@@ -411,7 +411,7 @@ PRESSEARCHIV
 							<div class="headline">
 								1. August 1998
 							</div>
-							<a href="zeitungsartikel/a9.gif" target="_blank">
+							<a href="download/zeitungsartikel/a9.gif" target="_blank">
 								Jahrhundertbau: Das ganze Dorf zieht mit (WV)
 							</a>
 						</div>
@@ -419,7 +419,7 @@ PRESSEARCHIV
 							<div class="headline">
 								16. M&auml;rz 1999
 							</div>
-							<a href="zeitungsartikel/a10.gif" target="_blank">
+							<a href="download/zeitungsartikel/a10.gif" target="_blank">
 								Golddorf zieht an einem Strang (WV)
 							</a>
 						</div>
@@ -427,7 +427,7 @@ PRESSEARCHIV
 							<div class="headline">
 								18. M&auml;rz 1999
 							</div>
-							<a href="zeitungsartikel/a10.gif" target="_blank">
+							<a href="download/zeitungsartikel/a10.gif" target="_blank">
 								Sport- und Begegnungszentrum w&auml;chst (DSA)
 							</a>
 						</div>
@@ -435,7 +435,7 @@ PRESSEARCHIV
 							<div class="headline">
 								M&auml;rz 1999
 							</div>
-							<a href="zeitungsartikel/a12.gif" target="_blank">
+							<a href="download/zeitungsartikel/a12.gif" target="_blank">
 								Richtkranz &uuml;ber Sport- und Begegnungszentrum (DK)
 							</a>
 						</div>
@@ -443,7 +443,7 @@ PRESSEARCHIV
 							<div class="headline">
 								6. Juli 1999
 							</div>
-							<a href="zeitungsartikel/a13.gif" target="_blank">
+							<a href="download/zeitungsartikel/a13.gif" target="_blank">
 								Westenholzer Eigenleistung: Mehr als zwei Millionen Mark (WV)
 								</a>
 						</div>
@@ -451,11 +451,11 @@ PRESSEARCHIV
 							<div class="headline">
 								30. August 1999
 							</div>
-							<a href="zeitungsartikel/a14.gif" target="_blank">
+							<a href="download/zeitungsartikel/a14.gif" target="_blank">
 								Starke Gemeinschaft (Patriot)
 							</a>
 							<br/>
-							<a href="zeitungsartikel/a15.gif" target="_blank">
+							<a href="download/zeitungsartikel/a15.gif" target="_blank">
 								Westenholzer hatten keine Angst vor gro&szlig;em Ziel (WV)
 							</a>
 						</div>
@@ -463,7 +463,7 @@ PRESSEARCHIV
 							<div class="headline">
 								31. August 1999
 							</div>
-							<a href="zeitungsartikel/a16.gif" target="_blank">
+							<a href="download/zeitungsartikel/a16.gif" target="_blank">
 								F&uuml;r diese Republik einmalig (NW)
 							</a>
 						</div>
@@ -471,11 +471,11 @@ PRESSEARCHIV
 							<div class="headline">
 								September 1999
 							</div>
-							<a href="zeitungsartikel/a17.gif" target="_blank">
+							<a href="download/zeitungsartikel/a17.gif" target="_blank">
 								Sport und Begegnungszentrum eingeweiht (DK)
 							</a>
 							<br/>
-							<a href="zeitungsartikel/a18.gif" target="_blank">
+							<a href="download/zeitungsartikel/a18.gif" target="_blank">
 								Grenzenlose M&ouml;glicheiten in Westenholz (DSA)
 							</a>
 						</div>
@@ -483,7 +483,7 @@ PRESSEARCHIV
 							<div class="headline">
 								15. Mai 2000
 							</div>
-							<a href="zeitungsartikel/a19.gif" target="_blank">
+							<a href="download/zeitungsartikel/a19.gif" target="_blank">
 								Geburtswehen geh&ouml;ren der Vergangenheit an (NW)
 							</a>
 						</div>
@@ -491,7 +491,7 @@ PRESSEARCHIV
 							<div class="headline">
 								16. Juni 2000
 							</div>
-							<a href="zeitungsartikel/a20.gif" target="_blank">
+							<a href="download/zeitungsartikel/a20.gif" target="_blank">
 								Sport- und Begegnungszentrum beim Tag der Architektur zu besichtigen (WV)
 							</a>
 						</div>
@@ -499,7 +499,7 @@ PRESSEARCHIV
 							<div class="headline">
 								30. März 2006
 							</div>
-							<a href="zeitungsartikel/a21.jpg" target="_blank">
+							<a href="download/zeitungsartikel/a21.jpg" target="_blank">
 								1.200 Buchungen für das Sportzentrum(NW)
 							</a>
 						</div>
@@ -507,7 +507,7 @@ PRESSEARCHIV
 							<div class="headline">
 								01. April 2006
 							</div>
-							<a href="zeitungsartikel/a22.jpg" target="_blank">
+							<a href="download/zeitungsartikel/a22.jpg" target="_blank">
 								Millionen eingenommen und ausgegeben(WV)
 							</a>
 						</div>
