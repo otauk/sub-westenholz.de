@@ -94,14 +94,14 @@ TERMINE
 						<div class="col-lg-1"></div>
 						<div class="col-lg-4">
 						 	<ul class="nav nav-tabs">
-						 		<li role="presentation" class="active">
+						 		<li role="presentation" class="btn_sporthalle">
 						 			<a class="btn_sporthalle">Sporthalle</a>
 						 		</li>
-						 		<li role="presentation">
-						 			<a class="btn_gymnastik">Gymnastik</a>
+						 		<li role="presentation" class="btn_gymnastik">
+						 			<a>Gymnastik</a>
 						 		</li>
-						 		<li role="presentation">
-						 			<a class="btn_musikraum">Musikraum</a>
+						 		<li role="presentation" class="btn_musikraum">
+						 			<a>Musikraum</a>
 						 		</li>
 						 	</ul>
 							 <div class="padding-15  color-pastel-light-background h25">
@@ -206,16 +206,19 @@ $(".cal_gymnastik").hide();
 $(".cal_musikraum").hide();
 	// Kalender Gymnastik
 	$(".btn_gymnastik").click(function(){
+		$(this).toggleClass("active").siblings().removeClass("active");
     	$(".cal_gymnastik").show();
 		$(".cal_sporthalle").hide();
 		$(".cal_musikraum").hide();
 	});
 	$(".btn_musikraum").click(function(){
+		$(this).toggleClass("active").siblings().removeClass("active");
     	$(".cal_musikraum").show();
     	$(".cal_gymnastik").hide();
 		$(".cal_sporthalle").hide();
 	});
 	$(".btn_sporthalle").click(function(){
+		$(this).toggleClass("active").siblings().removeClass("active");
     	$(".cal_sporthalle").show();
 		$(".cal_gymnastik").hide();
 		$(".cal_musikraum").hide();
