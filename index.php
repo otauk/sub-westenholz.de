@@ -105,9 +105,9 @@ TERMINE
 						 		</li>
 						 	</ul>
 							 <div class="padding-15  color-pastel-light-background h25">
-								<div id='calendar_sporthalle' class="cal_sporthalle"></div>
-								<div class="cal_gymnastik">KALENDER Gymnastik</div>
-								<div class="cal_musikraum">KALENDER Musikraum</div>
+								<div id="calendar_sporthalle" class="cal_sporthalle"></div>
+								<div id="calendar_gymnastikraum" class="cal_gymnastik" ></div>
+								<div id="calendar_musikraum" class="cal_musikraum"></div>
 							 </div>
 						</div>
 						<div class="col-lg-2"></div>
@@ -208,21 +208,21 @@ $(".cal_musikraum").hide();
 	// Kalender Gymnastik
 	$(".btn_gymnastik").click(function(){
 		$(this).toggleClass("active").siblings().removeClass("active");
-    	$(".cal_gymnastik").show();
 		$(".cal_sporthalle").hide();
 		$(".cal_musikraum").hide();
+    	$(".cal_gymnastik").show();
 	});
 	$(".btn_musikraum").click(function(){
 		$(this).toggleClass("active").siblings().removeClass("active");
-    	$(".cal_musikraum").show();
-    	$(".cal_gymnastik").hide();
+		$(".cal_gymnastik").hide();
 		$(".cal_sporthalle").hide();
+    	$(".cal_musikraum").show();
 	});
 	$(".btn_sporthalle").click(function(){
 		$(this).toggleClass("active").siblings().removeClass("active");
-    	$(".cal_sporthalle").show();
 		$(".cal_gymnastik").hide();
 		$(".cal_musikraum").hide();
+		$(".cal_sporthalle").show();
 	});
 
 });

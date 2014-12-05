@@ -18,6 +18,20 @@ $(document).ready(function() {
             googleCalendarId: 'vp8tq6uv960suir03acdrq6vf8@group.calendar.google.com',
         }
     });
+    $('#calendar_gymnastikraum').fullCalendar({
+	    defaultView: 'agendaWeek',
+        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
+        events: {
+            googleCalendarId: 'd418hc9ggth952emc615si5elc@group.calendar.google.com',
+        }
+    });
+    $('#calendar_musikraum').fullCalendar({
+	    defaultView: 'agendaWeek',
+        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
+        events: {
+            googleCalendarId: '51dliec51pvjt4680df8l4dr58@group.calendar.google.com',
+        }
+    });
     $('#calendar_forum').fullCalendar({
         googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
         events: {
