@@ -261,6 +261,12 @@ background-size: cover;
 	margin-bottom: -2px;
 }
 
+@media (max-width: 767px) {
+.nav-tabs>li {
+	clear:both;
+	}
+}
+
 .nav-tabs>li>a {
 	border-radius: 0;
 }
