@@ -497,13 +497,23 @@ a {
 */
 .thumbnail {
 	margin: 0 auto;
-	max-height:25%;
-	float:left;
-	padding: 15px;
-	border: none;
+	max-height: 150px !important;
+	max-width:200px !important ;
+	border:none;
+	padding:0;
 }
 
- /*
+.thumbnail_box {
+	border: 1 px solid #efefef;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px #efefef;
+	background: rgba(100,100,100,0.1);
+	overflow: hidden;
+	margin-bottom:15px;
+	width: 250px;
+	height:200px;
+}
+/*
 *	+++++++++++++++++++++++
 *	----- TABLE  -----
 *	+++++++++++++++++++++++
