@@ -500,17 +500,19 @@ a {
 	max-height: 150px !important;
 	max-width:200px !important ;
 	border:none;
-	padding:0;
+	margin-top:10px;
+
+	display: block;
+	padding: 5px;
+	background-color: #7194B3;
+	border-radius: 0px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
 }
 
 .thumbnail_box {
-	border: 1 px solid #efefef;
-	border-radius: 4px;
-	box-shadow: 3px 3px 5px #efefef;
-	background: rgba(100,100,100,0.1);
-	overflow: hidden;
 	margin-bottom:15px;
-	width: 250px;
 	height:200px;
 }
 /*

@@ -8,10 +8,10 @@
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
     <link href="css/fullcalendar.css" rel="stylesheet" />
     <link href="css/bootstrap-fullcalendar.css" rel="stylesheet" />
      <link href="css/lightbox.css" rel="stylesheet" />
+     <link href="css/custom.css" rel="stylesheet">
     <!-- Font -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
