@@ -184,7 +184,7 @@ DATEN
 							 <div class="headline headline-h2 text-center color-bright">
 								 Planung/Spendensammlung
 							</div>
-								<div class="padding-15  color-pastel-light-background h25">
+								<div class="padding-15  color-pastel-light-background h30">
 									<ul class="list">
 										<li>Vereineversammlung ermittelt 1992 Raumbedarf</li>
 										<li>Gründung des Fördervereins SuB 1993</li>
@@ -208,7 +208,7 @@ DATEN
 							 <div class="headline headline-h2 text-center color-bright">
 								 Bau
 							</div>
-								 <div class="padding-15  color-pastel-light-background h25">
+								 <div class="padding-15  color-pastel-light-background h30">
 									<ul class="list">
 										<li>Zeitraum 03/1998 – 05/2000</li>
 										<li>291 Helfer</li>
@@ -223,7 +223,7 @@ DATEN
 							 <div class="headline headline-h2 text-center color-bright">
 								 Nutzung
 							</div>
-								 <div class="padding-15  color-pastel-light-background h25">
+								 <div class="padding-15  color-pastel-light-background h30">
 									<ul class="list">
 										<li>820 Personen nutzen wöchentlich das SuB
   (u.a. Jugend, Musik, Schützen, Sport, VHS, Volkstanz)</li>
@@ -244,7 +244,7 @@ DATEN
 							 <div class="headline headline-h2 text-center color-bright">
 								 Vorstand
 							</div>
-								<div class="padding-15  color-pastel-light-background h25">
+								<div class="padding-15  color-pastel-light-background h30">
 								 	<table class="tbl">
 								 			<tr>
 								 				<td>Vorsitzender</td>
@@ -291,7 +291,7 @@ DATEN
 							 <div class="headline headline-h2 text-center color-bright">
 								 Hausordnung
 							</div>
-								 <div class="padding-15  color-pastel-light-background h25">
+								 <div class="padding-15  color-pastel-light-background h30">
 									Hier können Sie die Haus- und die Nutzungsordnung als PDF herunterladen:
 									<ul class="list">
 										<li>
@@ -311,7 +311,7 @@ DATEN
 							<div class="headline headline-h2 text-center color-bright">
 								 Sonstiges
 							</div>
-								 <div class="padding-15  color-pastel-light-background h25">
+								 <div class="padding-15  color-pastel-light-background h30">
 									Hier können Sie die Haus- und die Nutzungsordnung als PDF herunterladen:
 									<ul class="list">
 										<li>öffentliche Förderung (Land NRW, Kreis PB)</li>

@@ -406,6 +406,8 @@ a {
 .h10{min-height:10em;}
 .h15{min-height:15em;}
 .h20{min-height:20em;}
+.h25{min-height:25em;}
+.h30{min-height:30em;}
 
 .hpx50{height:50px;}
 .hpx100{height:100px;}
@@ -530,6 +532,6 @@ td {
 }
 
 .list li:before {
-	content:"--";
+	content:"---";
 	padding-right:5px;
 }
