@@ -1,9 +1,4 @@
 <script type='text/javascript'>
-/*
-*	++++++++++++++++++++
-*	calender Sporthalle
-*	++++++++++++++++++++
-*/
 $(document).ready(function() {
 
 	$('.navbar-nav').on('click', 'li', function(){
@@ -11,38 +6,32 @@ $(document).ready(function() {
     $(this).addClass('active');
 });
 
-    $('#calendar_sporthalle').fullCalendar({
+    $('#calendar_belegung').fullCalendar({
 	    defaultView: 'agendaWeek',
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
-        events: {
-            googleCalendarId: 'vp8tq6uv960suir03acdrq6vf8@group.calendar.google.com',
-        }
+        googleCalendarApiKey: 'AIzaSyBWKAx866joOLm7bHJBpGondtVSuhbq19k',
+        eventSources: [
+        	{
+            googleCalendarId: 'dh50mnnquhrhb4gv7kqa4s257o@group.calendar.google.com',
+        	},
+        	{
+            googleCalendarId: 'l5gbvtt3a6vq0155518kr3u8kk@group.calendar.google.com',
+            className: 'gym_cal'
+        	},
+        	{
+            googleCalendarId: 'ltp9vm0s0jgfavsnpnh9bf4tfk@group.calendar.google.com',
+            className: 'musik_cal'
+        	}
+        ]
+
     });
-    $('#calendar_gymnastikraum').fullCalendar({
-	    defaultView: 'agendaWeek',
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
-        events: {
-            googleCalendarId: 'd418hc9ggth952emc615si5elc@group.calendar.google.com',
-        }
-    });
-    $('#calendar_musikraum').fullCalendar({
-	    defaultView: 'agendaWeek',
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
-        events: {
-            googleCalendarId: '51dliec51pvjt4680df8l4dr58@group.calendar.google.com',
-        }
-    });
+
+
     $('#calendar_forum').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyCdAlsjXCCNYWTLSsgSVAKfPlNEoWFmK60',
+        googleCalendarApiKey: 'AIzaSyBWKAx866joOLm7bHJBpGondtVSuhbq19k',
         events: {
-            googleCalendarId: 'j6g3kemkccq9kh78icrcfrpf5k@group.calendar.google.com'
+            googleCalendarId: '0ntobhu242fivsb6bpnqmjrn7g@group.calendar.google.com'
         }
     });
 });
-/*
-*	++++++++++++++++++++
-*	calender Forum
-*	++++++++++++++++++++
-*/
 
 </script>

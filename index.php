@@ -94,21 +94,10 @@ TERMINE
 					<div class="row">
 						<div class="col-lg-1"></div>
 						<div class="col-lg-4">
-						 	<ul class="nav nav-tabs">
-						 		<li role="presentation" class="btn_sporthalle">
-						 			<a class="btn_sporthalle">Sporthalle</a>
-						 		</li>
-						 		<li role="presentation" class="btn_gymnastik">
-						 			<a>Gymnastik</a>
-						 		</li>
-						 		<li role="presentation" class="btn_musikraum">
-						 			<a>Musikraum</a>
-						 		</li>
-						 	</ul>
+							<div class="headline headline-h2 text-center color-bright">Belegung</div>
+
 							 <div class="padding-15  color-pastel-light-background h25">
-								<div id="calendar_sporthalle" class="cal_sporthalle"></div>
-								<div id="calendar_gymnastikraum" class="cal_gymnastik" ></div>
-								<div id="calendar_musikraum" class="cal_musikraum"></div>
+								<div id="calendar_belegung"></div>
 							 </div>
 						</div>
 						<div class="col-lg-2"></div>
