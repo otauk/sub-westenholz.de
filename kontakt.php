@@ -89,7 +89,8 @@ KONTAKT
 									</div>
 									<div class="padding-tb-15">
 										Tel.: 0 29 44 . 97 35 23<br/>
-										Fax: 0 29 44 . 97 35 38
+										Fax: 0 29 44 . 97 35 28<br/>
+										detlef.kemper@stadt-delbrueck.de
 									</div>
 								</div>
 							</div>

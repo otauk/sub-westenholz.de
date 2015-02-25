@@ -189,34 +189,6 @@ KONTAKT
 include ("footer.php");
 include("inc/calender_script.php");
 ?>
-<script>
-
-$(document).ready(function(){
-$(".btn_sporthalle").addClass("active");
-$(".cal_gymnastik").hide();
-$(".cal_musikraum").hide();
-	// Kalender Gymnastik
-	$(".btn_gymnastik").click(function(){
-		$(this).toggleClass("active").siblings().removeClass("active");
-		$(".cal_sporthalle").hide();
-		$(".cal_musikraum").hide();
-    	$(".cal_gymnastik").show();
-	});
-	$(".btn_musikraum").click(function(){
-		$(this).toggleClass("active").siblings().removeClass("active");
-		$(".cal_gymnastik").hide();
-		$(".cal_sporthalle").hide();
-    	$(".cal_musikraum").show();
-	});
-	$(".btn_sporthalle").click(function(){
-		$(this).toggleClass("active").siblings().removeClass("active");
-		$(".cal_gymnastik").hide();
-		$(".cal_musikraum").hide();
-		$(".cal_sporthalle").show();
-	});
-
-});
-</script>
 
 <!--
 ++++++++++++++++++++

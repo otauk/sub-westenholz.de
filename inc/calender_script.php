@@ -29,7 +29,7 @@ $(document).ready(function() {
     $('#calendar_forum').fullCalendar({
         googleCalendarApiKey: 'AIzaSyBWKAx866joOLm7bHJBpGondtVSuhbq19k',
         events: {
-            googleCalendarId: '0ntobhu242fivsb6bpnqmjrn7g@group.calendar.google.com'
+            googleCalendarId: '08pniadu6p5s0s93h6cek7h0kg@group.calendar.google.com'
         }
     });
 });

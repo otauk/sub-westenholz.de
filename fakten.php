@@ -269,21 +269,16 @@ DATEN
 								 			<tr>
 								 				<td>Beisitzer</td>
 								 				<td>
+									 				André Brunnert<br/>
 									 				Herbert Brunnert<br/>
 													Peter Ewers<br/>
-													Ingrid Hansmeier<br/>
 													Detlef Kemper<br/>
 													Hubertus Rolf<br/>
-													Franz Sandmeyer<br/>
+													Gabriele Sandmeyer<br/>
 													Frank Schuster<br/>
-													Sigrid Welzel
+													Annette Thiesmann
 												</td>
 								 			</tr>
-								 			<tr>
-								 				<td>Ehrenvorsitzender</td>
-								 				<td>Bernhard Hansel</td>
-								 			</tr>
-
 								 	</table>
 								</div>
 						</div>
@@ -312,7 +307,6 @@ DATEN
 								 Sonstiges
 							</div>
 								 <div class="padding-15  color-pastel-light-background h30">
-									Hier können Sie die Haus- und die Nutzungsordnung als PDF herunterladen:
 									<ul class="list">
 										<li>öffentliche Förderung (Land NRW, Kreis PB)</li>
 										<li>Zuschuss Stadt Delbrück zu den Vereinsräumen</li>
